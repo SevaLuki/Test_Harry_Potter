@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тест по Гарри Поттеру</title>
+
+<link rel="stylesheet" href="./style.css" type="text/css">
+<link rel="icon" href="HPicon.png" type="image/x-icon"/>
+
+</head>
+<body>
+
+<div class="container">
+  <h1>Мини тест по Гарри Поттеру от Севы</h1>
+  <form id="quizForm">
+    <div class="question">1. Как зовут родителей Гарри Поттера?</div>
+    <textarea name="q1" placeholder="Введите ответ сюда..."></textarea>
+
+    <div class="question">2. Кто убил Дамблдора?</div>
+    <div class="answers">
+      <label class="answer"><input type="radio" name="q2" value="a"> Волан-де-морт</label>
+      <label class="answer"><input type="radio" name="q2" value="b"> Северус Снегг </label>
+      <label class="answer"><input type="radio" name="q2" value="c"> Малфой</label>
+      <label class="answer"><input type="radio" name="q2" value="d"> Беллатриса</label>
+    </div>
+
+    <div class="question">3. Кто кинул имя Гарри Поттера в Кубок Огня?</div>
+    <div class="answers">
+      <label class="answer"><input type="radio" name="q3" value="a"> Бартемиус Крауч-младший</label>
+      <label class="answer"><input type="radio" name="q3" value="b"> Бартемиус Крауч-старший</label>
+      <label class="answer"><input type="radio" name="q3" value="c"> Дамблдор</label>
+      <label class="answer"><input type="radio" name="q3" value="d"> Люциус Малфой</label>
+    </div>
+
+    <div class="question">4. В кого мог превращаться Сириус Блэк?</div>
+    <input type="text" name="q4" autocomplete="off" >
+
+    <div class="question">5. Кто был владельцем самой могущественной палочки?</div>
+    <div class="answers">
+      <label class="answer"><input type="radio" name="q5" value="a"> Гарри Поттер </label>
+      <label class="answer"><input type="radio" name="q5" value="b"> Альбус Дамблдор </label>
+      <label class="answer"><input type="radio" name="q5" value="c"> Волан-де-морт</label>
+      <label class="answer"><input type="radio" name="q5" value="d"> Джеймс Поттер </label>
+    </div>
+
+    <div class="question">6. Какая фамилия у Драко?</div>
+    <input type="text" name="q6" autocomplete="off">
+
+    <button type="submit">Проверить ответы</button>
+  </form>
+  <div id="result"></div>
+</div>
+
+
+</body>
+</html>
